@@ -1,0 +1,28 @@
+.word {
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: PatrickHand;
+
+    &.word--selected {
+        background-color: #b8e069;
+
+    }
+
+    .letter {
+        &.letter--correct {
+            color: white;
+        }
+        &.letter--incorrect {
+            color: #c00;
+        }
+    }
+
+    &.word--incorrect {
+        color: #c00;
+    }
+    &.word--correct {
+        color: blue;
+    }
+}

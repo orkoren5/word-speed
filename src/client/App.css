@@ -1,0 +1,14 @@
+.app {
+    --margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: var(--margin);
+    min-height: 100vh;
+    height: 100vh;
+    padding-top: 20px;
+    background-color: #ced6d8;
+    position: relative;
+    overflow: visible;
+
+}
