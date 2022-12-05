@@ -5,3 +5,4 @@
 3. npm install
 4. npm run build
 5. npm run start:server
+6. Enter url in the browser: localhost:3001
